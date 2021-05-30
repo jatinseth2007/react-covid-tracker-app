@@ -1,0 +1,22 @@
+.all-country-wrapper{
+    height: 50vh;
+    overflow-y: auto;
+}
+
+.country-wrapper{
+    height: 35px;
+}
+
+.country-wrapper:nth-child(even) {
+    background: #f3f2f8;
+}
+
+.country-wrapper .image-container{
+    width: 20px;
+}
+
+.country-wrapper .image-container img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10px;
+}
